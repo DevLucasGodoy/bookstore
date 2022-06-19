@@ -17,6 +17,17 @@ function Feed() {
             </header>
             <div className="line"></div>
             <p>textotextotexto</p>
+            <div className="btns">
+              <div className="btn-edit">
+                <button>Editar</button>
+              </div>
+              <div className="btn-readmore">
+              <button>Ler Mais</button>
+              </div>
+              <div className="btn-delete">
+              <button>Deletar</button>
+              </div>
+            </div>
           </div>
         </div>
       </main>
