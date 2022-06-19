@@ -1,13 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import Header from '../../components/Header/Header'
 
 function Post() {
   return (
     <div>
-      <h1>Page Post</h1>
-      <Link to="/">
-        <button>Voltar</button>
-      </Link>
+      <Header />
     </div>
   )
 }
