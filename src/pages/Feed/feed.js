@@ -1,14 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import HeaderMain from '../../components/HeaderMain/HeaderMain'
 
 function Feed() {
   return (
     <div>
-      <h1>Page Feed</h1>
-
-      <Link to="/post">
-      <button>Add Novo Livro</button>
-      </Link>
+      <HeaderMain />
     </div>
   )
 }

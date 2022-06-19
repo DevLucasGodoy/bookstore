@@ -7,11 +7,11 @@ function HeaderMain() {
         <header>
             <div className="container">
                 <div className="logo" >
-                    <h1>CRUder</h1>
+                    <h1>Bookstore CRUD</h1>
                 </div>
                 <div className="btn-newPost" >
                     <Link to="/post" >
-                        <button>Add new Post</button>
+                        <button>Add Novo Livro</button>
                     </Link>
                 </div>
             </div>
