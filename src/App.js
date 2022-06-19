@@ -4,6 +4,7 @@ import Post from './pages/post'
 import Edit from './pages/edit'
 import LerMais from './pages/ler'
 import Feed from './pages/feed'
+import './styles/global.css'
 
 function App() {
   return (
