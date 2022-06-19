@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Post from './pages/post'
-import Edit from './pages/edit'
-import LerMais from './pages/ler'
-import Feed from './pages/feed'
+import Post from './pages/Post/post'
+import Edit from './pages/Edit/edit'
+import LerMais from './pages/LerMais/ler'
+import Feed from './pages/Feed/feed'
 import './styles/global.css'
 
 function App() {
